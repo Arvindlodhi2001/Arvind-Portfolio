@@ -43,7 +43,7 @@ const Navbar = () => {
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
   const closeMenu = () => setMenuOpen(false);
-  const toggleTheme = () => setIsDark(isDark);
+  const toggleTheme = () => setIsDark(!isDark);
 
   return (
     <>
